@@ -67,18 +67,15 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
             @foreach($items as $p)
-                <td>{{$p->Valor}}</td>
-                <td>{{$p->Fecha}}</td>
+                <tr>
+                    <td>{{$p->Valor}}</td>
+                    <td>{{$p->Fecha}}</td>
+                </tr>
             @endforeach
-            </tr>
         </tbody>
     </table>
     </div>
 
-    @foreach($items as $p)
-        <h1>{{$p}}</h1>
-    @endforeach
 
 </body>
