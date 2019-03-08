@@ -54,7 +54,8 @@ Route::get('/generacion_random', function(){
 });
 
 Route::get('/reporte_registros', function(){
-    
+    $items = Registro::all(['Valor', 'Fecha']);
+    return $items;
     $results = DB::select('select * from Registro;', array(1));
     return $results;
     
