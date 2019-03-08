@@ -36,7 +36,7 @@
     <body>
         <div id="app">
             <!-- BARRA DE NAVEGACION -->
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" height=500px >
                 <a class="navbar-brand" href="#">DEMO - GRAFICAS</a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
