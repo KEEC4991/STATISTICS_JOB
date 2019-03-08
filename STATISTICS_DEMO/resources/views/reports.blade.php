@@ -35,7 +35,7 @@
 
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
         <link rel="stylesheet" href="/css/start.css">
-        <script src="/js/start.js"></script>
+        <script src="/js/report.js"></script>
 
         <style>
 
