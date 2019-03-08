@@ -39,7 +39,7 @@ function solicitar_Numero(){
                     chart.dataProvider.shift();
                 }
                 
-                var elem2 = document.getElementById("boton_ultimo_generado");
+                var elem2 = document.getElementById("boton_valor_generado");
                 elem2.value = res['valor'];
 
                 //Corrimiento y actualizacion del grafico
