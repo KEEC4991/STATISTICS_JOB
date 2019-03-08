@@ -17,9 +17,7 @@ Route::get('/', function () {
     return view('start');
 });
 
-Route::get('/reporte',function(){
-    return view('reports');
-});
+Route::get('/reporte','Reportes@index');
 
 Route::get('/generacion_random', 'GeneradorRandom@index');
 
