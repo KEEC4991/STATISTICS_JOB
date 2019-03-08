@@ -49,7 +49,7 @@
             </nav>
         <div>
     
-    <div id="contenedor_Tabla">
+    <div id="contenedor_Tabla" class= "table-wrapper-scroll-y my-custom-scrollbar" >
         <div class="table-responsive" id = "tabla_Registros">
             <table class="table">
                 <thead>
