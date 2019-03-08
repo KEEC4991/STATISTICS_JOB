@@ -29,7 +29,7 @@ function solicitar_Numero(){
         'success': function(res){
 
                 //Impresion de respuesta
-                console.log(res);
+                //console.log(res);
 
                 //Insert del valor generado al arreglo del chart : numeros_Generados
                 var nuevo_Registro = { 'date' : contador_Generados, 'visits' : res['valor'] };
