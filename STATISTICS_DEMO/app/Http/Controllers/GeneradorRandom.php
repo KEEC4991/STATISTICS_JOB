@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB; 
 
 class GeneradorRandom extends Controller
 {
@@ -17,6 +18,11 @@ class GeneradorRandom extends Controller
         $respuesta = [ 'valor' => $rand, 'fecha_generacion' => $fecha_Hoy];
 
         //Almacenamiento del valor
+        
+        DB::table('Registro')->insert(
+            ['Valor' => $rand, 'Fecha' => $fecha_Hoy]
+        );
+
         //Headers para el response
         $headers = [
                 'Access-Control-Allow-Origin'      => '*',
