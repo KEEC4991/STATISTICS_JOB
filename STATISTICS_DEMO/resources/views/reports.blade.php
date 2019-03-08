@@ -56,19 +56,6 @@
                 </ul>
             </nav>
         <div>
-
-        <h1> posts</h1>
-        @if(count($items)>0)
-        @foreach($items as $any_variable)
-        <ul>
-        <p> {{$any_variable->enter_table_field}} </p>
-        <p> {{$any_variable->created_at}} </p>
-        </ul>
-
-        @endforeach
-        @else
-        <p> empty </p>
-        @endif
     
     <div class="table-responsive">
     <table class="table">

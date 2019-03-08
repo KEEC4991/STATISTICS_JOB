@@ -17,7 +17,7 @@ class Reportes extends Controller
         );
 
         $items = \App\Registro::all(['Valor', 'Fecha']);
-        return view('reports')->with('items',$items);
+        return view('reports', ['items' => $items]));
 //        return $items; 
     
     }
