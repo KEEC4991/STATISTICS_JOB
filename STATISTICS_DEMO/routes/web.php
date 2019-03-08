@@ -23,18 +23,7 @@ Route::get('/reporte',function(){
 
 Route::get('/generacion_random', 'GeneradorRandom@index');
 
-Route::get('/reporte_registros', function(){
-
-    $rand = rand(0,100);
-    $fecha_Hoy = date("Y-m-d H:i:s");
-    $registro = new \App\RegistroRND;
-    $registro->Valor = $rand;
-    $registro->Fecha = $fecha_Hoy;
-    $registro->save();
-
-    $items = \App\Registro::all(['Valor', 'Fecha']);
-    return $items; 
-});
+Route::get('/reporte_registros', 'Reportes@index');
 
 Auth::routes();
 
