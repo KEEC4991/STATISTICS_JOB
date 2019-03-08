@@ -59,7 +59,7 @@
             <!-- PANEL DE GENERACION DE PARA GRAFICOS -->
             <div id="panel_general_s" class="panel_general_l">
                 <div id="panel_boton_generador">
-                    <input id="boton_inicio_toggle" type="button" class="btn btn-warning" value="INICIAR"> </input>
+                    <input id="boton_inicio_toggle" type="button" class="btn btn-warning" value="INICIAR"> 
                 </div>
                 <div id="panel_central_grafico">
                 </div>
@@ -68,6 +68,7 @@
             <div id="contenedor_grafico">
                 <div id="chartdiv"></div>
             </div>
+            <input type="button" id="ultimo_Generado" class="btn btn-success" value="N-A"> 
         </div>
     </body>
 </html>
