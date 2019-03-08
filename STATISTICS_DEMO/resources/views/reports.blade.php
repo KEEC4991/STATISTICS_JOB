@@ -61,7 +61,6 @@
     <table class="table">
         <thead>
             <tr>
-            <th>ID</th>
             <th>VALOR</th>
             <th>FECHA</th>
             </tr>
