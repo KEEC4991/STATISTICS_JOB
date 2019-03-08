@@ -76,6 +76,9 @@
     </table>
     </div>
 
-    <h1>Hello, {{ $items }}</h1>
+    @foreach($items as $p)
+        <h1>{{$p}}</h1>
+        
+    @endforeach
 
 </body>
