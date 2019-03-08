@@ -49,7 +49,7 @@
             </nav>
         <div>
     
-    <div id="contendor_Tabla">
+    <div id="contenedor_Tabla">
         <div class="table-responsive" id = "tabla_Registros">
             <table class="table">
                 <thead>
