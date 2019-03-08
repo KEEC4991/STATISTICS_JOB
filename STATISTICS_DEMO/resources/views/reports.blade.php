@@ -75,4 +75,14 @@
         </tbody>
     </table>
     </div>
+
+    @foreach ($items as $student)
+    {{$student->Valor}}
+    {{$student->Fecha}}
+
+    @endforeach
+
+
+    @stop
+
 </body>
