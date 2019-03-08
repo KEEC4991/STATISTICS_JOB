@@ -45,7 +45,7 @@ function solicitar_Numero(){
                 chart.zoomToIndexes(chart.dataProvider.length - 50, chart.dataProvider.length - 1);
 
                 //Mostrando el numero generado 
-                var elem = document.getElementById("btn_ultimo_generado");
+                var elem = document.getElementById("boton_ultimo_generado");
                 elem.value = "BTW";
 
                 //Aumento del contador de registros
