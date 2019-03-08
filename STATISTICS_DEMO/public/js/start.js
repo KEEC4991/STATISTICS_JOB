@@ -45,7 +45,7 @@ function solicitar_Numero(){
                 chart.zoomToIndexes(chart.dataProvider.length - 50, chart.dataProvider.length - 1);
 
                 //Mostrando el numero generado 
-                document.getElementById("ultimo_Generado").value = res['valor'];
+                document.getElementById("ultimo_Generado").value = res;
 
                 //Aumento del contador de registros
                 contador_Generados ++;
