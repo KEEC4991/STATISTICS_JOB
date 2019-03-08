@@ -39,13 +39,14 @@ function solicitar_Numero(){
                     chart.dataProvider.shift();
                 }
 
+                //Corrimiento y actualizacion del grafico
                 chart.dataProvider.push( nuevo_Registro );
-
                 chart.validateData();
                 chart.zoomToIndexes(chart.dataProvider.length - 50, chart.dataProvider.length - 1);
 
-                //console.log(nuevo_Registro);
-                //console.log(nuevo_Registro);
+                //Mostrando el numero generado 
+                var elem = document.getElementById("ultimo_Generado");
+                elem.value = res['valor'];
 
                 //Aumento del contador de registros
                 contador_Generados ++;
