@@ -38,6 +38,9 @@ function solicitar_Numero(){
                     numeros_Generados.shift();
                     chart.dataProvider.shift();
                 }
+                
+                var elem2 = document.getElementById("boton_ultimo_generado");
+                elem2.value = res['valor'];
 
                 //Corrimiento y actualizacion del grafico
                 chart.dataProvider.push( nuevo_Registro );
@@ -123,8 +126,6 @@ window.onload = function(){
 
         if(elem.value == "INICIAR"){
             iniciar();
-            var elem2 = document.getElementById("boton_ultimo_generado");
-            elem2.value = "BTW";
             elem.value = "PAUSAR";
         }else{
             pausar();
