@@ -18,7 +18,7 @@ class Registro extends Model
     ];
 
     public function up(){
-        Schema::create('Registros', function (Blueprint $table) {
+        Schema::create('Registro', function (Blueprint $table) {
             $table->increments('Id');
             $table->integer('Valor');
             $table->string('Fecha');
@@ -26,7 +26,7 @@ class Registro extends Model
     }
 
     public function down(){
-        Schema::dropIfExists('Registros');
+        Schema::dropIfExists('Registro');
     }
 
 }
