@@ -44,7 +44,6 @@ function solicitar_Numero(){
                 chart.validateData();
                 chart.zoomToIndexes(chart.dataProvider.length - 50, chart.dataProvider.length - 1);
 
-
                 //Aumento del contador de registros
                 contador_Generados ++;
             },
