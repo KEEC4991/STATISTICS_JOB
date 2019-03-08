@@ -76,9 +76,9 @@
     </table>
     </div>
 
-    @foreach ($student as $items)
-    {{$student->Valor}}
-    {{$student->Fecha}}
+    @foreach ($items as $it)
+    {{$it->Valor}}
+    {{$it->Fecha}}
 
     @endforeach
 
