@@ -67,8 +67,9 @@
 
             <div id="contenedor_grafico">
                 <div id="chartdiv"></div>
+                <input type="button" id="ultimo_Generado" class="btn btn-success" value="N-A">
             </div>
-            <input type="button" id="ultimo_Generado" class="btn btn-success" value="N-A"> 
+             
         </div>
     </body>
 </html>
