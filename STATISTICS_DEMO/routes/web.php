@@ -53,7 +53,7 @@ Route::get('/reporte_registros', function(){
 
     $rand = rand(0,100);
     $fecha_Hoy = date("Y-m-d H:i:s");
-    $registro = new \App\Registro_Aleatorios;
+    $registro = new \App\RegistroRND;
     $registro->Valor = $rand;
     $registro->Fecha = $fecha_Hoy;
     $registro->save();
