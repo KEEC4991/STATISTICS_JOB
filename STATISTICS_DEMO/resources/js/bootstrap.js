@@ -8,10 +8,13 @@ window._ = require('lodash');
  */
 
 try {
-    window.Popper = require('popper.js').default;
+    //No necesario popper
+    //window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
+    //Cambios por instalación de bootstrap al proyecto
     require('bootstrap');
+    //require('bootstrap-sass');
 } catch (e) {}
 
 /**
