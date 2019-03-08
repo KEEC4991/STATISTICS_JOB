@@ -32,7 +32,7 @@
         <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
         <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 
-        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+        <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/start.css">
         <script src="/js/start.js"></script>
 

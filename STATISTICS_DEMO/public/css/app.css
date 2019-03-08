@@ -9121,15 +9121,4 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.panel_general_l {
-  background: #a1b0b8;
-  height: 200px;
-  padding: 25px;
-}
-
-#boton_inicio_toggle {
-  height: 100px;
-  width: 300px;
-  font-size: 40px;
-}
 
