@@ -68,9 +68,10 @@
         </thead>
         <tbody>
             <tr>
-            <td>1</td>
-            <td>Anna</td>
-            <td>Pitt</td>
+            @foreach($items as $p)
+                <td>{{$p->Valor}}</td>
+                <td>{{$p->Fecha}}</td>
+            @endforeach
             </tr>
         </tbody>
     </table>
@@ -78,7 +79,6 @@
 
     @foreach($items as $p)
         <h1>{{$p}}</h1>
-        
     @endforeach
 
 </body>
