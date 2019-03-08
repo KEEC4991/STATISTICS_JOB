@@ -49,24 +49,26 @@
             </nav>
         <div>
     
-    <div class="table-responsive" id = "tabla_Registros">
-        <table class="table">
-            <thead>
-                <tr>
-                <th>VALOR</th>
-                <th>FECHA</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach($items as $p)
+    <div id="contendor_Tabla">
+        <div class="table-responsive" id = "tabla_Registros">
+            <table class="table">
+                <thead>
                     <tr>
-                        <td>{{$p->Valor}}</td>
-                        <td>{{$p->Fecha}}</td>
+                    <th>VALOR</th>
+                    <th>FECHA</th>
                     </tr>
-                @endforeach
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach($items as $p)
+                        <tr>
+                            <td>{{$p->Valor}}</td>
+                            <td>{{$p->Fecha}}</td>
+                        </tr>
+                    @endforeach
+                </tbody>
+            </table>
+        </div>
     </div>
-
+    
 
 </body>
