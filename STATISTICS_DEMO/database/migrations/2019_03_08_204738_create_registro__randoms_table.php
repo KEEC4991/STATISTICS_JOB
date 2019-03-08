@@ -14,8 +14,9 @@ class CreateRegistroRandomsTable extends Migration
     public function up()
     {
         Schema::create('registro__randoms', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
+            $table->increments('Id');
+            $table->integer('Valor');
+            $table->string('Fecha');
         });
     }
 
