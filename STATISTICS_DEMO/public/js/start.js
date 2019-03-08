@@ -42,7 +42,7 @@ function solicitar_Numero(){
                 chart.dataProvider.push( nuevo_Registro );
 
                 chart.validateData();
-                chart.zoomToIndexes(chart.dataProvider.length - 52, chart.dataProvider.length - 1);
+                chart.zoomToIndexes(chart.dataProvider.length - 52, chart.dataProvider.length - 2);
 
                 //console.log(nuevo_Registro);
                 //console.log(nuevo_Registro);
