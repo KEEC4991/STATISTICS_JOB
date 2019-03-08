@@ -44,9 +44,6 @@ function solicitar_Numero(){
                 chart.validateData();
                 chart.zoomToIndexes(chart.dataProvider.length - 50, chart.dataProvider.length - 1);
 
-                //Mostrando el numero generado 
-                var elem = document.getElementById("boton_ultimo_generado");
-                elem.value = "BTW";
 
                 //Aumento del contador de registros
                 contador_Generados ++;
@@ -127,6 +124,8 @@ window.onload = function(){
 
         if(elem.value == "INICIAR"){
             iniciar();
+            var elem2 = document.getElementById("boton_ultimo_generado");
+            elem2.value = "BTW";
             elem.value = "PAUSAR";
         }else{
             pausar();
