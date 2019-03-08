@@ -11,6 +11,8 @@ class Registro extends Model
     // 1. Se almacena el numero generado aleatoriamente por el controlador. (Nota: los numeros generados aletoriamente son solo enteros entre 0 y 100).
     // 2. Se almacena la hora en que se genero el número aletaorio (Nota: la hora deberá ser almacenada como una cadena) 
 
+    protected $table = 'Registro';
+
     protected $attributes = [
         'Id',
         'Valor',
