@@ -25,11 +25,11 @@ function solicitar_Numero(){
 
     $.ajax({
         type : 'GET',
-        url: 'http://127.0.0.1:8000/generacion_random',
+        url: 'http://35.185.119.169/generacion_random',
         'success': function(res){
 
                 //Impresion de respuesta
-                //console.log(res);
+                console.log(res);
 
                 //Insert del valor generado al arreglo del chart : numeros_Generados
                 var nuevo_Registro = { 'date' : contador_Generados, 'visits' : res['valor'] };
