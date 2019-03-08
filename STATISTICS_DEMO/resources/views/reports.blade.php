@@ -76,13 +76,6 @@
     </table>
     </div>
 
-    @foreach ($items as $it)
-    {{$it->Valor}}
-    {{$it->Fecha}}
-
-    @endforeach
-
-
-    @stop
+    <h1>Hello, {{ $items }}</h1>
 
 </body>
