@@ -12,8 +12,7 @@ class Registro extends Model
     // 2. Se almacena la hora en que se genero el número aletaorio (Nota: la hora deberá ser almacenada como una cadena) 
 
     protected $table = 'Registro';
-    protected $fillable = ['Valor','body'];
-    protected $fillable = ['Fecha','body'];
+    protected $fillable = ['Valor','Fecha'];
 
     protected $attributes = [
         'Id',
