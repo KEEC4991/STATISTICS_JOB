@@ -54,8 +54,9 @@ Route::get('/generacion_random', function(){
 });
 
 Route::get('/reporte_registros', function(){
-    dd(\app\Registro::all());
-
+    
+    $results = DB::select('select * from Registro;', array(1));
+    return $results;
 });
 
 Auth::routes();
