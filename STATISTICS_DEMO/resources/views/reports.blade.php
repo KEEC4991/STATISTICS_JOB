@@ -24,17 +24,9 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-        <!-- M-CHART dependencias -->
-        <script src="//www.amcharts.com/lib/3/amcharts.js"></script>
-        <script src="//www.amcharts.com/lib/3/serial.js"></script>
-        <script src="//www.amcharts.com/lib/3/themes/light.js"></script>
-
-        <script src="https://www.amcharts.com/lib/3/xy.js"></script>
-        <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
-        <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
-
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
         <link rel="stylesheet" href="/css/start.css">
+        <link rel="stylesheet" href="/css/report.css">
         <script src="/js/report.js"></script>
 
         <style>
@@ -57,23 +49,23 @@
             </nav>
         <div>
     
-    <div class="table-responsive">
-    <table class="table">
-        <thead>
-            <tr>
-            <th>VALOR</th>
-            <th>FECHA</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach($items as $p)
+    <div class="table-responsive" id = "tabla_Registros">
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>{{$p->Valor}}</td>
-                    <td>{{$p->Fecha}}</td>
+                <th>VALOR</th>
+                <th>FECHA</th>
                 </tr>
-            @endforeach
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach($items as $p)
+                    <tr>
+                        <td>{{$p->Valor}}</td>
+                        <td>{{$p->Fecha}}</td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
     </div>
 
 
