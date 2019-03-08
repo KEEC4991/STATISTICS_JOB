@@ -57,6 +57,7 @@ Route::get('/reporte_registros', function(){
     
     $results = DB::select('select * from Registro;', array(1));
     return $results;
+    
 });
 
 Auth::routes();
