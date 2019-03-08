@@ -34,10 +34,6 @@ Route::get('/generacion_random', function(){
 
     //Almacenamiento del valor
 /*
-    $registro = new Registro;
-    $registro->Valor = $rand;
-    $registro->Fecha = $fecha_Hoy;
-    $registro->save();
 */
     //Headers para el response
     $headers = [
@@ -54,6 +50,13 @@ Route::get('/generacion_random', function(){
 });
 
 Route::get('/reporte_registros', function(){
+
+    $rand = rand(0,100);
+    $registro = new Registro;
+    $registro->Valor = $rand;
+    $registro->Fecha = $fecha_Hoy;
+    $registro->save();
+
     $items = \App\Registro::all(['Valor', 'Fecha']);
     return $items; 
 });
