@@ -54,7 +54,7 @@
             <table class="table">
                 <thead>
                     <tr>
-                    <th>VALOR</th>
+                    <th>VALOR GENERADO</th>
                     <th>FECHA</th>
                     </tr>
                 </thead>

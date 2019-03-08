@@ -1,6 +1,7 @@
 #tabla_Registros{
     width: 100%;
     height: 800px;
+    margin: auto; 
 }
 
 #contenedor_Tabla{
