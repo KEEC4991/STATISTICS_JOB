@@ -76,7 +76,7 @@
     </table>
     </div>
 
-    @foreach ($items as $student)
+    @foreach ($student as $items)
     {{$student->Valor}}
     {{$student->Fecha}}
 
