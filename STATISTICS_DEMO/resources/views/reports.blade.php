@@ -36,7 +36,7 @@
     <body>
         <div id="app">
             <!-- BARRA DE NAVEGACION -->
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" height=500px >
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
                 <a class="navbar-brand" href="#">DEMO - GRAFICAS</a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -49,8 +49,8 @@
             </nav>
         <div>
     
-    <div id="contenedor_Tabla" class= "table-wrapper-scroll-y my-custom-scrollbar" >
-        <div class="table-responsive" id = "tabla_Registros">
+    <div id="contenedor_Tabla"  >
+        <div class="table-responsive" id = "tabla_Registros" class= "table-wrapper-scroll-y my-custom-scrollbar">
             <table class="table">
                 <thead>
                     <tr>
