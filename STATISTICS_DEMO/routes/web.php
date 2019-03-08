@@ -52,7 +52,7 @@ Route::get('/generacion_random', function(){
 Route::get('/reporte_registros', function(){
 
     $rand = rand(0,100);
-    $registro = new Registro;
+    $registro = new \App\Registro;
     $registro->Valor = $rand;
     $registro->Fecha = $fecha_Hoy;
     $registro->save();
