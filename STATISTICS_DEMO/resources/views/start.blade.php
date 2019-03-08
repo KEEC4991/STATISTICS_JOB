@@ -60,7 +60,6 @@
             <div id="panel_general_s" class="panel_general_l">
                 <div id="panel_boton_generador">
                     <input id="boton_inicio_toggle" type="button" class="btn btn-warning" value="INICIAR"> 
-                    <input id="boton_valor_generado" type="button" class="btn btn-warning" value="INICIAR"> 
                 </div>
                 <div id="panel_central_grafico">
                 </div>
@@ -68,6 +67,7 @@
 
             <div id="contenedor_grafico">
                 <div id="chartdiv"></div>
+                <input id="boton_valor_generado" type="button" class="btn btn-primary" value="INICIAR"> 
             </div>
              
         </div>
