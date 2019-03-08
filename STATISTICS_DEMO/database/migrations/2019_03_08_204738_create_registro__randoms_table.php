@@ -13,7 +13,7 @@ class CreateRegistroRandomsTable extends Migration
      */
     public function up()
     {
-        Schema::create('registro__randoms', function (Blueprint $table) {
+        Schema::create('registro_randoms', function (Blueprint $table) {
             $table->increments('Id');
             $table->integer('Valor');
             $table->string('Fecha');
@@ -27,6 +27,6 @@ class CreateRegistroRandomsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('registro__randoms');
+        Schema::dropIfExists('registro_randoms');
     }
 }
